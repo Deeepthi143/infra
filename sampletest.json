@@ -1,0 +1,13 @@
+
+https://cloudformation.us-east-1.amazonaws.com/
+ ?Action=CreateStack
+ &StackName=MyStack
+ &TemplateBody=[Template Document]
+ &NotificationARNs.member.1=arn:aws:sns:us-east-1:1234567890:my-topic
+ &Parameters.member.1.ParameterKey=AvailabilityZone
+ &Parameters.member.1.ParameterValue=us-east-1a
+ &Version=2010-05-15
+ &SignatureVersion=2
+ &Timestamp=2010-07-27T22%3A26%3A28.000Z
+ &AWSAccessKeyId=[AWS Access KeyID]
+ &Signature=[Signature]
