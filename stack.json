@@ -8,31 +8,31 @@
 		"InstanceType": {
 			"Description": "WebServer EC2 instance type",
 			"Type": "String",
-			"Default": "m1.medium",
+			"Default": "t2.micro",
 			"ConstraintDescription": "must be a valid EC2 instance type."
 		},
 
 		"KeyName": {
 			"Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
 			"Type": "String",
-			"Default": "dfad"
+			"Default": "aws2"
 
 		},
 		"ImageID": {
 			"Description": "Name of an existing EC2 KeyPair to enable SSH access to the instance",
 			"Type": "String",
-			"Default": "ami-12345"
+			"Default": "ami-c998b6b2"
 
 		},
 		"InstanceSecurityGroup": {
 			"Description": " The IP address range that can be used to SSH to the EC2 instances",
 			"Type": "AWS::EC2::SecurityGroup::Id",
-			"Default": "sg-12345"
+			"Default": "sg-0fc0407f"
 		},
 		"SubnetId": {
 			"Description": " The IP address range that can be used to SSH to the EC2 instances",
 			"Type": "AWS::EC2::Subnet::Id",
-			"Default": "subnet-12345"
+			"Default": "subnet-8bd9a4c3"
 		}
 
 	},
